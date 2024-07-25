@@ -23,7 +23,7 @@ const controls = new OrbitControls(camera, renderer.domElement)
 const ambientLight = new THREE.AmbientLight(0x404040) // Soft white light
 scene.add(ambientLight)
 
-const pointLight = new THREE.PointLight(0xffffff, 60, 0) // Intense white light
+const pointLight = new THREE.PointLight(0xffffff, 10, 0) // Intense white light
 pointLight.position.set(0, 100, 10)
 pointLight.castShadow = true
 scene.add(pointLight)
